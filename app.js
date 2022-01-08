@@ -133,7 +133,7 @@ function makeGame() {
         htmlObj.innerHTML = htmlObj.innerHTML + `<div class="box" style="background:` + color + `;"></div>`;
         if (i === loopBox) {
             const htmlObj = document.getElementById('game');
-            htmlObj.innerHTML = htmlObj.innerHTML + `<div class="box win" style="background:` + colorwin + `;" onclick=" gameWin();" ></div>`;
+            htmlObj.innerHTML = htmlObj.innerHTML + `<div class="box" style="background:` + colorwin + `;" onclick=" gameWin();" ></div>`;
         }
     }
 
@@ -191,7 +191,7 @@ function startTimer(duration, display) {
             localStorage['diem'] =x;
             if( localStorage.getItem('cord') <= x ) {
                 localStorage['cord'] = x
-                g0.innerText= "Kỉ Lục Mới";
+                g0.innerText= "Kỷ Lục Mới";
                g1.innerText =  x ;
             }else{
                 g0.innerText="Thành Tích Mới"
