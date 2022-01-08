@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+.button{
+    display: flex;
+    position:absolute;
+    margin: 10px;
+    color:white;
+    font-size:30px;
+    font-family:fantasy;
+    font-weight: 100;
+    transition: 0.25s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(81, 168, 202);
+    height: 40px;
+    width: 150px;
+    text-shadow: 1px 1px 10px #fff;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.411);
+}
+
+.button:hover{
+    border: 2px solid rgb(41, 147, 189);
+    height: 50px;
+    width: 200px;
+    color:rgb(255, 0, 0);
+    font-size:35px;
+    text-shadow: 1px 1px 10px red
+}
+.cord{
+    display: flex;
+    position:absolute;
+    margin: 10px;
+    top: 0;
+    right: 30%;
+    color:white;
+    font-size:30px;
+}
+
+h1{
+    color:white;
+    font-size:30px;
+}
+.screen{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+   
+}
+.game{
+    display:grid;
+    grid-template-columns: 50px 50px 50px;
+    justify-content: center;
+}
+.box{
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin-bottom: 10px;
+}
+.time{
+    display: flex;
+    position:absolute;
+    margin: 10px;
+    top: 0;
+    left: 30%;
+    
+    color:white;
+    font-size:30px;
+}
+
+.content{
+    position:absolute;
+    top: 30%;
+}
+.content h5{
+    font-size:50px;
+    color: rgb(93, 250, 255);
+    font-weight:bold;
+    text-shadow: 5px 5px 30px rgba(129, 188, 202);
+} 
+.content h6{
+    font-size:11px;
+    color: rgb(93, 163, 255);
+    font-style: italic;
+    font-weight:none;
+    text-align: center;
+}
+
+.win{
+    border-radius:0px;
+}
+
+.endgame{
+    height: 300px;
+    width: 350px;
+    background:linear-gradient(45deg, rgb(5, 180, 166), rgb(0, 140, 255));
+    text-align: center;
+    color: #000;
+    border: 1px solid rgb(0, 119, 255);
+    border-radius: 60% 5px 60% 10px;
+   
+}
+
+.endgame div+div{
+    margin:30px;
+}
+.endgame span{
+    font-size:40px;
+    font-weight:bold;
+    color:rgb(0, 26, 255);
+}
+
+#g1{
+    font-size:50px;
+    color: rgb(255, 0, 0);
+    
+}
+.button2{
+    margin: 10px;
+    color:rgb(0, 0, 0);
+    font-size:30px;
+    font-family:fantasy;
+    font-weight: 100;
+    transition: 0.25s;
+    text-align: center;
+    border: 2px solid rgb(202, 81, 81);
+    height: 40px;
+    width: 150px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    display: inline-block
+}
+
+.button2:hover{
+    border: 2px solid rgb(255, 0, 212);
+    height: 50px;
+    width: 200px;
+    color:rgb(0, 255, 98);
+    font-size:35px;
+}
+
+.active{
+    display:none;
+}
+

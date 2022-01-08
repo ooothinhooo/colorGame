@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="time active">Time: <span id="time"> 1:30</span></div>
+    
+    <div class="cord active">Điểm:<h1 id="cord">00</h1></div>
+    <div class="content">
+        <h5>Tìm Màu Khác Biệt</h5>
+        <h6>Trong vòng 1P30s hãy thật nhiều ô có màu khác các ô còn lại</h6>
+    </div>
+    <div class="button" id="button">PLAY</div>
+    <div class="screen">
+        <div class="game" id="game">
+            <div class="box active"></div>
+        </div>
+    </div>
+
+    <div class="endgame active" id="endgame">
+        <div>
+            <span id="g0"></span>
+            <br>
+            <span id="g1"></span>
+            <br>
+            <span>Điểm</span>
+        </div>
+
+        <div class="button2 active" id="button2">Play Again</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
